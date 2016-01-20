@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+      "cordovaDependencies": {
+        "0.0.1": { 
+            "cordova-ios": ">1.0.0",
+            "cordova": "~4.0.0" 
+        },
+        "<1.0.0": { "cordova-ios": "<2.0.0" },
+        "<2.0.0": { "cordova-ios": "<5.0.0" }
+  }
+  }
+}
